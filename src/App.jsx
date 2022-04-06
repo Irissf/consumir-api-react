@@ -7,8 +7,8 @@ const App = () => {
     //Se ejecuta al renderizar una web, por lo que al aumentar el contador
     //se renderiza de nuevo
     useEffect(()=>{
-        console.log("renderizado")
-    },[]);
+        console.log("renderizado "+ contador)
+    },[contador]);
 
     return (
         <div className='container'>
